@@ -11,7 +11,7 @@ public:
            }
            while(c){
                c= c->next;
-            N = N->next;
+               N = N->next;
            }
            if(N) return N->data;
            return -1;
