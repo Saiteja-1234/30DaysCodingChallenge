@@ -11,7 +11,5 @@ int f(int idx,vector<int>&a,vector<int>&dp){
 int maximumNonAdjacentSum(vector<int> &nums){
     int n = nums.size();
     vector<int>dp(n+10,-1);
-    // memset(dp,-1,n+10);
     return f(n-1,nums,dp);
-
 }
