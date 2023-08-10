@@ -14,3 +14,4 @@ bool isCircular(Node *head)
         }
     }
     return false;
+}
